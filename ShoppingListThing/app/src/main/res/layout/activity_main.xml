@@ -13,21 +13,47 @@
         android:id="@+id/main_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" />
+        android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/add_button"
-        android:layout_width="0dp"
-        android:layout_height="100sp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="50dp"
-        android:text="Add Item"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="addItemClicked"
-        app:layout_constraintStart_toStartOf="parent" />
+        <EditText
+            android:id="@+id/store_find_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Search Store"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="100sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="1"
+                android:onClick="addItemClicked"
+                android:text="Add Item"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/find_button"
+                android:layout_width="wrap_content"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:text="Find Store"
+                android:textSize="30sp"
+                android:onClick="findStore"/>
+
+        </LinearLayout>
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>

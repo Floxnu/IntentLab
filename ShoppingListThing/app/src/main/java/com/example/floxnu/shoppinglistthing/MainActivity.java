@@ -2,11 +2,13 @@ package com.example.floxnu.shoppinglistthing;
 
 import android.content.ClipData;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -18,12 +20,15 @@ public class MainActivity extends AppCompatActivity {
     TextView[] ShoppingListText;
     LinearLayout mainLayout;
     ArrayList<String> itemsList;
+    EditText locationEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mainLayout = findViewById(R.id.main_layout);
+
+        locationEditText = findViewById(R.id.store_find_text);
 
         ShoppingListText = new TextView[10];
         itemsList = new ArrayList<>();
@@ -78,5 +83,18 @@ public class MainActivity extends AppCompatActivity {
         for(int i = 0; i < itemsList.size(); i++){
             ShoppingListText[i].setText(itemsList.get(i));
         }
+    }
+
+    public void findStore(View view) {
+        String storeToFind = locationEditText.getText().toString();
+
+        Uri address = Uri.parse("geo:0,0?q=" + storeToFind);
+
+        Intent intent = new Intent(Intent.ACTION_VIEW, address);
+
+        if(intent.resolveActivity(getPackageManager()) != null){
+            startActivity(intent);
+        }
+
     }
 }
