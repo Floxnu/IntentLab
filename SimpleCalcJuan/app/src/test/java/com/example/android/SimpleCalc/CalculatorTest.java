@@ -100,10 +100,33 @@ public class CalculatorTest {
 
     @Test
     public void divByZeroThrows(){
-
             thrown.expect(IllegalArgumentException.class);
             double resultDiv = mCalculator.div(5, 0);
-
-
     }
+
+    @Test
+    public void positiviePow(){
+        double resultPow = mCalculator.pow(3,2);
+        assertThat(resultPow, is(equalTo(9d)));
+    }
+
+    @Test
+    public void negativePow(){
+        double resultPow = mCalculator.pow(3,-2);
+        assertThat(resultPow, is(closeTo(0.1111d, 0.01d)));
+    }
+
+    @Test
+    public void zeroFirstPow(){
+        double resultPow = mCalculator.pow(0,2);
+        assertThat(resultPow, is(equalTo(0d)));
+    }
+
+    @Test
+    public void zeroSecond(){
+        double resultPow = mCalculator.pow(3,0);
+        assertThat(resultPow, is(equalTo(1d)));
+    }
+
+
 }
