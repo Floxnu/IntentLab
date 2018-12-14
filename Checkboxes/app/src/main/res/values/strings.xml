@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Checkboxes</string>
+    <string name="never">Never</string>
+    <string name="gonna">Gonna</string>
+    <string name="give">Give</string>
+    <string name="you">You</string>
+    <string name="up">Up</string>
+    <string name="show_toast">Show Toast</string>
+</resources>
