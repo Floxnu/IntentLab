@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Import"
+        android:id="@+id/import_"/>
+
+    <item android:title="Gallery"
+        android:id="@+id/gallery_"/>
+
+    <item android:title="SlideShow"
+        android:id="@+id/slide_"/>
+
+    <item android:title="Tools"
+        android:id="@+id/tools_"/>
+
+    <group android:title="Other">
+
+        <item android:title="Other">
+            <menu>
+
+                <item android:title="Other #1"
+                    android:id="@+id/other_1"/>
+                <item android:title="Other #2"
+                android:id="@+id/other_2"/>
+            </menu>
+
+        </item>
+    </group>
+
+
+
+</menu>
