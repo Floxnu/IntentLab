@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">RecipeHomework</string>
+
+    <string-array name="recipe_names">
+        <item>Cake</item>
+        <item>Ice-Cream</item>
+        <item>Pancakes</item>
+        <item>Sandwich</item>
+    </string-array>
+
+    <string-array name="recipe_description">
+        <item>Cake placeholder text. A cake is a thing that is baked and you eat and is sweet and stuff.
+        There are several different types of cakes and this is one of them. Cakes are generally used for parties but you can eat them whenever.</item>
+        <item>Ice-Cream is another sweet thing, but this one is fairly cold. It is often super expensive here in Van but they are generally really good.
+        I want to get some ice cream now :(</item>
+        <item>Pancakes are cakes that you make in a pan (maybe). Running out of stuff to write by this point but this is much more fun than just copying stuff.
+        Alright enough about pancakes now.</item>
+        <item>Sandwich is not in fact a mythological creature (witch) that controls sand, but rather a salty food thing that has things between two breads.
+        Fore some inexplicable reason it invites many ridiculous debates as to what is and is not categorized as a sandwich</item>
+    </string-array>
+
+    <string-array name="recipe_text">
+        <item>Ingredients
+1/2 cup unsalted butter softened to room temperature (113g)
+½ cup canola oil* (120ml)
+1 1/2 cup sugar 300g
+4 eggs room temperature preferred
+1 Tablespoon vanilla extract
+3 cups all-purpose flour (390g)
+1 Tablespoon baking powder
+1/2 teaspoon salt
+1 1/4 cup buttermilk room temperature preferred (300ml)
+1 batch Chocolate Frosting
+
+</item>
+        <item>INGREDIENTS
+4 large egg yolks
+2/3 cup granulated sugar
+1 1/2 cups whole milk
+1 vanilla bean or 1 teaspoon vanilla extract
+1 1/2 cups heavy cream
+EQUIPMENT
+Mixing bowls
+Fine-mesh strainer
+Whisk
+Measuring cups and spoons
+Medium saucepan
+Spatula or wooden spoon
+Instant-read thermometer
+Ice cream machine
+Wax paper</item>
+        <item>The Dry Ingredients
+Flour: Use all-purpose flour or whole wheat. A combination of the both is nice, too.
+Sugar: We use granulated sugar, but you could experiment with brown sugar. Brown sugar will make the pancakes a little moister.
+Baking Powder: Baking powder makes the pancakes so light and fluffy.
+Salt: We like to use 3/4 teaspoon of coarse salt (or 1/2 teaspoon of fine salt). It balances the sugar nicely and brings out lots of flavor in the pancakes. If you are using salted butter, you may want to reduce this.</item>
+        <item>2 x 200 - 250g/8oz-9oz pieces trimmed skirt of beef
+4 garlic cloves, smashed and peeled
+small bunch thyme
+
+6 tbsp olive oil
+
+1 oblong loaf sourdough bread
+1 beefsteak tomato
+
+, sliced
+6 long leaves Cos lettuce
+For the sauce
+50g cocktail gherkin, finely chopped
+1 heaped tbsp capers
+
+, finely chopped
+1 bunch flat-leaf parsley, leaves finely chopped
+7 tbsp good-quality mayonnaise
+splash Worcestershire sauce
+4 shakes Tabasco sauce
+1 small red onion
+
+, finely chopped</item>
+    </string-array>
+</resources>
