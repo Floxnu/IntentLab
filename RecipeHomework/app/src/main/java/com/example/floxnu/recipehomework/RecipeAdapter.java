@@ -33,7 +33,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.RecipeItem
                 Intent intent = new Intent(context, RecipeActivity.class);
                 intent.putExtra("index", activityIndex);
 
-                context.startActivity(intent);
+                context.startActivity(intent    );
             }
         };
     }
