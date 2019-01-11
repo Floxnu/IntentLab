@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WebPageCodeSearch</string>
+    <string-array name="entries">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+</resources>
